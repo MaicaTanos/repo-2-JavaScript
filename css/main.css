@@ -101,7 +101,7 @@ header img {
   text-align: center;
 }
 
-.title, .prensa, .galeria, .contact {
+.title, .eventos, .prensa, .galeria, .contact {
   text-align: center;
   color: #c2a11f;
   margin-top: 2vh;
@@ -109,15 +109,15 @@ header img {
   justify-content: center;
   align-items: center;
 }
-.title h1, .prensa h1, .galeria h1, .contact h1 {
+.title h1, .eventos h1, .prensa h1, .galeria h1, .contact h1 {
   font-size: 3.5em;
   font-weight: 800;
 }
-.title::before, .prensa::before, .galeria::before, .contact::before {
+.title::before, .eventos::before, .prensa::before, .galeria::before, .contact::before {
   content: url("../img/icons/icono-titulo-i.png");
   margin-right: 1vw;
 }
-.title::after, .prensa::after, .galeria::after, .contact::after {
+.title::after, .eventos::after, .prensa::after, .galeria::after, .contact::after {
   content: url("../img/icons/icono-titulo-d.png");
   margin-left: 1vw;
 }
@@ -336,6 +336,28 @@ footer a {
   font-weight: 800;
   text-align: center;
   margin-top: 4vh;
+}
+
+.shows p {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+}
+.form label {
+  font-size: 1.1em;
+  font-weight: 550;
+  margin-bottom: 1vh;
+  margin-top: 2vh;
+}
+.form button {
+  margin-top: 3vh;
 }
 
 @media (max-width: 768px) {
